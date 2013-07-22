@@ -1,0 +1,21 @@
+---
+layout: archive
+---
+
+<div id = "about">
+  <div class = "text">
+    {% capture about %}{% include about.md %}{% endcapture %}
+    {{ about | markdownify }}
+  </div>
+  <div class = "social-icon">
+    <div class = "icon">
+      <a href = "https://twitter.com/MaximeHeckel" class = "social"><img class = "rotate" src = "/img/twitter.png"></a>
+    </div>
+    <div class = "icon">
+      <a href = "https://github.com/MaximeHeckel" class = "social"><img class = "rotate" src = "/img/github.png"></a>
+    </div>
+    <div class = "icon">
+      <a href = "https://plus.google.com/101097975137643150355/posts" class = "social"><img class = "rotate" src = "/img/google.png"></a>
+    </div>
+  </div>
+</div>

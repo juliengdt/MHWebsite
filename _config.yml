@@ -1,0 +1,14 @@
+name: "maximeheckel.com"
+description: ""
+
+url: "http://maximeheckel.com"
+
+pagination: 5
+
+markdown: rdiscount
+permalink: pretty
+pygments: true
+paginate: 5
+comments: true
+project_dir: /projects/example
+
